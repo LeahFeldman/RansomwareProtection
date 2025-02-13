@@ -2,6 +2,7 @@
     --myNavy: rgba(3, 3, 97, 0.9);
 }
 body{
+    /* gap:20px; */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin:0;
     padding:0;
@@ -11,9 +12,7 @@ header{
     position: fixed;
     display: flex;
     margin: 0 auto;
-}
-header{
-    left:1%;
+    left: 1%;
     right: 1%;
     width: 98%;
     height: 100px;
@@ -24,10 +23,14 @@ header{
     background-color: #c3daf0;
     border-radius: 12px;;
 }
+.padding-neg-margin{
+    padding-top:150px;
+    margin-top:-150px;
+}
 #content{
-    margin-top:150px;
+    top:150px;
+    padding-top:100px;
     margin-left: 22%;
-    align-content: right;
     line-height: 30px;
 }
 #content ul, ol{
@@ -68,6 +71,7 @@ header h1{
     float:right;
 }
 nav{
+    top: 150px;
     width: 20%;
     height: 100%;
     margin: 0;
