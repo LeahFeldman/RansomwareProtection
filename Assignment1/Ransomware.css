@@ -154,7 +154,7 @@ button{
 
     transition-property: width;
     transition-duration: 0.5s;
-    transition-timing-function: ease-in;
+    transition-timing-function:ease-in ease-out;
     transition-delay: 0s;
 }
 button:hover{
